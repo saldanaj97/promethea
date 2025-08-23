@@ -7,12 +7,32 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
   },
   "devDependencies": {
-    "prettier": "^3.1.1",
+    "prettier": "^3.6.2",
     "turbo": "^2.5.6"
   },
   "engines": {
     "node": ">=18"
   },
-  "name": "with-react-native-web",
-  "packageManager": "pnpm@10.15.0"
+  "name": "promethea",
+  "packageManager": "pnpm@10.15.0",
+  "pnpm": {
+    "overrides": {
+      "react": "19.0.0",
+      "react-dom": "19.0.0",
+      "react-native": "0.79.5",
+      "react-native-safe-area-context": "5.4.0",
+      "react-native-screens": "~4.11.1",
+      "react-native-web": "~0.20.0",
+      "expo": "53.0.22",
+      "expo-constants": "~17.1.7",
+      "expo-linking": "~7.1.7",
+      "expo-router": "~5.1.5",
+      "expo-status-bar": "~2.2.3",
+      "expo-system-ui": "~5.0.11",
+      "@types/react": "~19.0.14",
+      "typescript": "~5.8.3",
+      "@babel/core": "^7.28.3",
+      "hermes-parser": "^0.32.0"
+    }
+  }
 }

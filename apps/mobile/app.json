@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "native",
-    "slug": "native",
+    "name": "mobile",
+    "slug": "promethea",
     "version": "1.0.0",
-    "scheme": "com.turbo.example",
+    "scheme": "com.turbo.promethea",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,12 +25,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.turbo.example"
+      "package": "com.turbo.promethea"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": ["expo-router"]
+    "plugins": ["expo-router"],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c5aa79f5-2748-471d-8f66-f4da9e54fb42"
+      }
+    },
+    "owner": "saldanaj97"
   }
 }
